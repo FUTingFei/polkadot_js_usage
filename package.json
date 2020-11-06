@@ -1,0 +1,17 @@
+{
+  "name": "polkastudy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@polkadot/api": "^2.5.1",
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0"
+  },
+  "scripts": {
+    "transfer": "babel-node --presets es2015 transfer.js",
+    "record": "babel-node --presets es2015 record.js",
+    "check_payout": "babel-node --presets es2015 check_payout.js",
+    "get_payout": "babel-node --presets es2015 get_payout.js"
+  }
+}
